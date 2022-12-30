@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SITE TITLE</title>
+</head>
+<body>
+
+	<style type="text/css">
+		
+		.container{
+
+			width: 1000px;
+			background: #f0f0f0;
+			margin: 0px auto;
+			height: auto;
+			min-height: 1000px;
+		}
+
+		.header{
+
+			position: relative;
+			background: #000;
+			width: 100%;
+			height: 70px;
+		}
+
+		.section-1{
+
+			position: relative;
+			background: #234;
+			width: 100%;
+			height: 300px;
+
+		}
+
+		.section-2{
+
+			position: relative;
+			background: #000;
+			width: 100%;
+			height: 250px;		
+		}
+
+		.section-3{
+
+			position: relative;
+			background:#444;
+			width: 100%;
+			height: 300px; 
+		}
+
+		.section-4{
+
+			position: relative;
+			background: #344;
+			width: 100%;
+			height: 300px;
+
+		}
+
+		.footer{
+
+			background: #000;
+			position: relative;
+			width: 100%;
+			height: 100px;		
+		}
+
+		.menu ul{
+
+			list-style: none;
+			color: #fff
+		}
+
+		.menu{
+
+			position: relative;
+			top: 20px;
+			left: 50px;		
+		}
+
+		.menu ul li{
+
+			display: inline;
+			font-weight: bold;
+			padding-right: 20px;
+			padding-left: 40px;
+
+		}
+
+		#block li{
+
+			background: #009;
+			position:absolute;
+			list-style: none;
+			height: 40px;
+			width: 60px;
+			font-size: 20px;
+			color: #fff;
+			
+
+		}
+		.sect-1-box{
+
+			width: 350px;
+			height: 200px;
+			/*background: #fff;*/
+			top: 50px;
+			left: 20px;
+			position: absolute;
+		}
+
+		.sect-1-box h2{
+
+			position: relative;
+			font-weight: bold;
+			bottom: 60px;
+			font-size:80px;
+			font-style: italic;
+			left: 20px;
+			color: #fff;
+
+		}
+		.sect-1-box p {
+
+			position: relative;
+			font-weight: bold;
+			font-style: italic;
+			font-size: 80px;
+			bottom: 150px;
+			left: 40px;
+			color: #fff;
+		}
+
+		.context{
+
+			position: absolute;
+			background: #fff;
+			width: 450px;
+			height:200px;
+			left: 500px;
+			top: 40px;
+
+		}
+
+		.context img{
+
+			position: absolute;
+			width: 450px;
+			height: 200px;
+			bottom: 0px;
+
+		}
+
+		#headline{
+
+			position: relative;
+			/*background: #fff;*/
+			width: 250px;
+			height: 200px;
+			top: 20px;
+			display: inline-block;
+			left:45px;
+			padding-left: 20px;
+			padding-right: 30px; 
+		}
+
+		#headline h2{
+
+			position: absolute;
+			font-size: 20px;
+			margin: 0px;
+			top: 30px; 
+			color: #fff;
+		}
+
+		#headline p{
+
+			position: absolute;
+			font-size: 25px;
+			color: #444f;
+			top: 40px;	
+		}
+
+		#wall{
+/*
+			background: #fff;*/
+			position: relative;
+			width: 400px;
+			height: 100px;
+			top: 30px;
+			left: 20px;
+		}
+
+		#wall h2{
+
+			font-size: 40px;
+			position: absolute;
+			color: #fff;
+			left: 25px;
+			margin: 0px;
+			/*font-weight: bold;*/
+			padding-right: 20px;
+
+		}
+
+		#box{
+
+			position: absolute;
+			background: #000;
+			width: 150px;
+			height: 145px;
+			left: 50px;
+			top: 120px;
+
+		}
+
+		#box img{
+
+			width: 120px;
+			height:120px;
+			position: absolute;
+			left: 15px;
+			top: 12px;
+		}
+
+		#lock{
+
+			/*background: #fff;*/
+			position: absolute;
+			left: 250px;
+			width: 700px;
+			height: 200px;
+			top: 85px;
+		}
+
+		#lock h2{
+
+			left: 10px;
+			color: #000;
+		}
+
+		#poll{
+
+			position: relative;
+			/*background: #fff;*/
+			width: 250px;
+			height: 250px;
+			left: 30px;
+			top: 25px;
+			display: inline-block;
+			padding-left: 20px;
+		}
+
+		#poll h2{
+
+			position: absolute;
+			left: 20px;
+			font-size: 30px;
+			margin: 0px;
+			color: #fff;
+		}
+
+		#door{
+
+			position: absolute;
+			width: 150px;
+			height: 120px;
+			background: #000;
+			top: 45px;
+		}
+
+		#door img{
+
+			position: absolute;
+			width: 130px;
+			height: 100px;
+			left: 10px;
+			top: 10px;
+		}
+
+		#poll p{
+
+			position: absolute;
+			margin: 0px;
+			font-size: 18px;
+			color: #fff;
+			top: 175px;
+		}
+
+		#poll ul{
+
+			position: absolute;
+			list-style: none;
+
+		}
+
+		#poll ul li{
+
+			position: relative;
+			top: 30px;
+			color: #fff;
+			text-decoration: underline;
+			font-size: 20px;
+			right: 40px;
+			font-weight: bold;
+		}
+
+		#headline button{
+
+			font-size: 18px;
+		}
+
+		.footer p{
+
+			margin: 0px;
+			color: #fff;
+			font-size: 25px;
+			top: 35px;
+			position: absolute;
+		}
+
+
+
+
+
+	</style>
+
+	<div>
+		
+		<div class="container">
+
+			<div class="header">
+				
+				<div class="menu">
+					<div id="block">
+						<li>Home</li>
+					</div>
+					<ul>
+					<li>Services</li>
+					<li>News</li>
+					<li>Gallery</li>
+					<li>Contact Us</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section-1">
+				
+				<div class="sect-1-box">
+					<h2>SITE</h2>
+					<p>TITLE</p>
+				</div>
+
+				<div class="context">
+					<img src="assets/deluxe.jpg">
+				</div>
+			</div>
+			<div class="section-2">
+				<div id="headline">
+					<h2>Lorem ipsum dolor sit amet</h2>
+					<p>Sed et justo non mi tincidunt ullarcorper ut ut purus fungilla tristique diam </p>
+					<button>Read More</button>
+				</div>
+				<div id="headline">
+					<h2>Lorem ipsum dolor sit amet</h2>
+					<p>Sed et justo non mi tincidunt ullarcorper ut ut purus fungilla tristique diam </p>
+					<button>Read More</button>
+				</div>
+				<div id="headline">
+					<h2>Lorem ipsum dolor sit amet</h2>
+					<p>Sed et justo non mi tincidunt ullarcorper ut ut purus fungilla tristique diam </p>
+					<button>Read More</button>
+				</div>
+			</div>
+			<div  class="section-3">
+				<div id="wall">
+					<h2>Black Fox Template</h2>
+				</div>
+
+				<div id="box">
+
+					<img src="assets/safari.jpg">
+				</div>
+
+				<div id="lock">
+					<h2>Black fox is a Free CSS Template by Templatemo.com for everone. Feel free to download, edit and apply the designs for your websites.Credit goes to Free Photos for photos used in this templates. Pellentesque ver est a risus adispicing vehicular. Viva mo urna lectus, sodales posure davida puncidunt, tempus vel sapien.</h2>
+				</div>
+			</div>
+			<div class="section-4">
+				<div id="poll">
+					<h2>About Us</h2>
+					<div id="door">
+						<img src="assets/flowers.jpg">
+					</div>
+					<p>Nullam ultrices tempor nisi, ac egstas diam aliqiam mattis adisciping imperdiet</p>
+				</div>
+
+				<div id="poll">
+					<h2>Navigation</h2>
+
+					<ul>
+						<li>Home</li>
+						<br>
+						<li>About Us</li>
+						<br>
+						<li>Services</li>
+						<br>
+						<li>Gallery</li>
+						<br>
+						<li>Contact us</li>
+					</ul>
+				</div>
+
+				<div id="poll">
+					<h2>Partners</h2>
+
+					<ul>
+						<li>Websites Templates</li>
+						<br>
+						<li>Flashsites Templates</li>
+						<br>
+						<li>Premium Themes</li>
+						<br>
+						<li>Websites Blog</li>
+						<br>
+						<li>Flash Websites Gallery</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<p>Copyright &copy; 2048 Your Company Name. Designed by CSS Templates. Validate XHTML & CSS</p>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
